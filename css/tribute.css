@@ -1,3 +1,100 @@
-h1 {
-    font-weight: bold;
-}
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 1.6rem;
+    background: #e6e6e6
+  }
+  
+  p {
+    margin: 10px 10px 10px 12px;
+  }
+  
+  #main {
+     margin: 10px 50px 10px 50px;
+     display: flex;
+    flex-direction: column;
+  }
+  
+  #title {
+    text-align: center;
+    vertical-align: sub;
+    opacity: 0.9;
+  }
+  
+  #text-box {
+    background-color: #151728;
+    color: white;
+    margin: 2% 0.7% 1% .7%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+  
+  #img-div {
+    padding: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: -50px;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #img-caption {
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  #achievements {
+    width: 2500px;
+    align-self: flex-start;
+    background-color: #b366ff;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display:flex;
+    flex-direction: column;
+  }
+  .footer {
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  .side-side {
+    display: flex;
+    margin: 50px;
+  }
+  
+  #gold {
+    color: #ffd633;
+    font-weight: 500;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  
+  #YT {
+    margin-left: auto;
+    margin-right: auto;
+  }
